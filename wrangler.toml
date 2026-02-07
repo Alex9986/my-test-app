@@ -1,0 +1,9 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "my-test-app"
+main = ".open-next/worker.js"
+compatibility_date = "2026-02-05"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
